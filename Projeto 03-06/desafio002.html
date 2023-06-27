@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Dinamica</title>
+</head>
+
+<body>
+
+    <!--Inserindo imagem dinâmica no site-->
+    <h1>Configurando imagem dinamica</h1>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/leao-g.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="imagens/leao-m.png" type="image/png">
+        <img src="imagens/leao-p.png" alt="leao-p">
+    </picture>
+
+    <!--Inserindo áudio no website -->
+    <h1>Configurando áudio</h1>
+    <audio preload="metadata" controls>
+        <source src="audio/indiana-music.mp3" type="audio/mpeg">
+        <source src="audio/indiana-music.mp3" type="audio/ogg">
+        <source src="audio/indiana-music.mp3" type="audio/wav">
+        <p>Infelizmente o navegador não conseguiu reproduzir o aúdio.
+           <a href="audio/indiana-music.mp3">Clique aqui para fazer o download!</a>
+        </p>
+    </audio><br><br>
+
+    <!--Inserindo video no website-->
+    <h1>Inserindo um video da forma mais simples:</h1>
+    <video src="videos/animacao-gato.mp4" type="video/mp4" width="500" controls></video>
+
+    <!--Inserindo video de forma profissional-->
+    <h1>Inserindo um video de forma efetiva e profissional:</h1>
+    <video width="500" controls>
+        <source src="videos/animacao-gato.mp4" type="video/mp4">
+        <source src="videos/animacao-gato.m4v" type="video/mp4">
+        <source src="videos/animacao-gato.ogv" type="video/ogv">
+        <p>Me desculpe, seu navegador é uma bosta!</p>
+    </video>
+
+    <!--Inserindo video externo do youtube:-->
+    <h1>Inserindo video hospedados no Youtube:</h1>
+        <iframe width="500" height="280" src="https://www.youtube.com/embed/E1xT7wXteUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
+
+
+</body>
+
+</html>

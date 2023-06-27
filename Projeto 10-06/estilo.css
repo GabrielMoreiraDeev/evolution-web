@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    background-color: #BDA6F5;
+}
+main {
+    background-color: white ;
+    margin: auto;
+    padding: 10px;
+    width: 800px;
+    border-radius: 2%;
+    box-shadow: 15px 15px 10px #615580;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1#principal {
+    background-color: #BDA6F5 ;
+    color: #5A5075;
+    text-align: center;
+
+}
+
+h1 {
+    background-color: #BDA6F5 ;
+    color: #5A5075;
+}
+
+
+.melhor {
+    color: green;
+}
+
+.meio {
+    color: blue;
+}
+
+.pior {
+    color: red;
+}

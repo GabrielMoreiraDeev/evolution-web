@@ -1,0 +1,122 @@
+@font-face {
+    font-family: bet;
+    src: url('fonts/openextrabold.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #dce8ef;
+    padding-bottom: 150px;
+
+
+}
+
+main {
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+    background-color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 7px 7px 10px #a0b4c2;
+}
+
+header {
+    background-color: #4B96BD;
+    padding-top: 15px;
+
+}
+
+
+nav.cabecalho {
+    background-color: #C1E7FA;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+nav>a {
+    text-decoration: none;
+    margin-left: 60px;
+    border-left: 2px;
+
+
+}
+
+iframe {
+    width: 655px;
+    height: 370px;
+}
+
+.imagem-tamanho {
+    width: 655px;
+    height: 370px;
+
+}
+
+ul>li {
+    margin-bottom: 10px;
+}
+
+footer {
+    padding-top: 100px;
+}
+
+p.rodape {
+    text-justify: auto;
+}
+
+
+.bio {
+    font-size: 20px;
+    margin-top: 1px;
+}
+
+.mencao {
+
+    font-size: 80%;
+}
+
+.aumento:hover {
+    text-decoration: underline;
+    color: white;
+
+}
+
+
+.titulo-pag {
+    font-size: 35px;
+    margin-bottom: 1px;
+
+}
+
+.titulo-site {
+    color: white;
+    font-family: bet;
+    margin-top: 0px;
+    font-size: 40px;
+    text-align: center;
+}
+
+img.logotipo {
+    width: 5%;
+
+}
+
+span.variacao-cor-titulo {
+    color: #FFAB19;
+}
+
+.italico {
+    font-style: italic;
+}
+
+.alinhamento {
+    text-align: center;
+}
+
+.rede-social {
+    width: 3%;
+
+}
